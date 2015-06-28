@@ -1,7 +1,7 @@
 # Change these
 server '104.131.18.245', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@example.com:username/appname.git'
+set :repo_url,        'git@github.com:bdcravens/zero-downtime-deploy-demo.git'
 set :application,     'zdd-demo'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
