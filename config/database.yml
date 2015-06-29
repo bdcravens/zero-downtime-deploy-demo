@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: zdd-blog_production
-  username: zdd-blog
-  password: <%= ENV['ZDD-BLOG_DATABASE_PASSWORD'] %>
+  username: zdd
+  password: 4zdddb
